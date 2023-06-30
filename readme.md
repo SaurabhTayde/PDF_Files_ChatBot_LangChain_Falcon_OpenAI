@@ -1,23 +1,21 @@
-# Chatbot for Multiple PDF files
+## Chatbot for Multiple PDF files
 
-## Introduction
-------------
-The MultiPDF Chat App is a Python application that allows you to chat with multiple PDF documents. You can ask questions about the PDFs using natural language, and the application will provide relevant responses based on the content of the documents. This app utilizes a language model to generate accurate answers to your queries. Please note that the app will only respond to questions related to the loaded PDFs.
+Chatbot for Multiple PDF files is a Python program designed for interacting with multiple PDF documents. Through natural language queries, users can inquire about the PDFs and receive accurate responses based on their content. The app utilizes a language model to generate these answers. It's important to note that the app will only respond to questions pertaining to the loaded PDFs.
 
 ## How It Works
 ------------
 
-The application follows these steps to provide responses to your questions:
+The application follows a series of steps to provide responses to your questions:
 
-1. PDF Loading: The app reads multiple PDF documents and extracts their text content.
+1. PDF Inputs: The app reads and extracts the text content from multiple PDF documents.
 
-2. Text Chunking: The extracted text is divided into smaller chunks that can be processed effectively.
+2. Chunking of text input: The extracted text is divided into smaller, manageable sections for efficient processing.
 
-3. Language Model: The application utilizes a language model to generate vector representations (embeddings) of the text chunks.
+3. LLM: The app employs a language model to generate vector representations (embeddings) of the text chunks.
 
 4. Similarity Matching: When you ask a question, the app compares it with the text chunks and identifies the most semantically similar ones.
 
-5. Response Generation: The selected chunks are passed to the language model, which generates a response based on the relevant content of the PDFs.
+5. Response Generation: The selected text chunks are passed to the language model, which uses the relevant content from the PDFs to generate an appropriate response.
 
 ## Dependencies and Installation
 ----------------------------
@@ -36,14 +34,14 @@ To install the MultiPDF Chat App, please follow these steps:
 -----
 To use the MultiPDF Chat App, follow these steps:
 
-1. Ensure that you have installed the required dependencies and added the OpenAI API key to the `.env` file.
+1. Intall requirement.txt and add your OpenAI API key or HugginFace Key (whichever LLM you chose) to the `.env` file.
 
-2. Run the `main.py` file using the Streamlit CLI. Execute the following command:
+2. Run following:
    ```
    streamlit run app.py
    ```
 
-3. The application will launch in your default web browser, displaying the user interface.
+3. The application will launch in your default web browser, displaying UI
 
 4. Load multiple PDF documents into the app by following the provided instructions.
 
