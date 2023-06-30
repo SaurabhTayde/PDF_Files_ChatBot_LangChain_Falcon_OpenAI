@@ -10,7 +10,7 @@ OR
 
 Similarly there are two options to create embedding as well. (Embeddings of Hugging Face might take huge amount of time for generation. Better to go for Open AI embeddings. We can still use Falcon 7B with OpenAI embeddings)
 
-### How It Works
+### Step by Step Process explanation:
 ------------
 
 The ChatBot  follows a series of steps to provide responses to the questions:
