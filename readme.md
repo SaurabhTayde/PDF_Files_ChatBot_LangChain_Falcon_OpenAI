@@ -1,4 +1,4 @@
-## Chatbot for Multiple PDF files
+### Chatbot for Multiple PDF files
 
 Chatbot for Multiple PDF files is a Python program designed for interacting with multiple PDF documents. Through natural language queries, users can inquire about the PDFs and receive accurate responses based on their content. The app utilizes a language model to generate these answers. It's important to note that the app will only respond to questions pertaining to the loaded PDFs.
 
@@ -10,7 +10,7 @@ OR
 
 Similarly there are two options to create embedding as well. (Embeddings of Hugging Face might take huge amount of time for generation. Better to go for Open AI embeddings. We can still use Falcon 7B with OpenAI embeddings)
 
-# How It Works
+### How It Works
 ------------
 
 The ChatBot  follows a series of steps to provide responses to the questions:
@@ -25,7 +25,7 @@ The ChatBot  follows a series of steps to provide responses to the questions:
 
 5. Response Generation: The selected text chunks are passed to the language model, which uses the relevant content from the PDFs to generate an appropriate response.
 
-# Installation
+### Installation
 ----------------------------
 To install the MultiPDF Chat App, please follow these steps:
 
@@ -38,7 +38,7 @@ To install the MultiPDF Chat App, please follow these steps:
 
 3. Obtain an API key from OpenAI and add it to the `.env` file in the project directory.
 
-# Usage
+### Usage
 -----
 To use the MultiPDF Chat App, follow these steps:
 
