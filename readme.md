@@ -2,7 +2,7 @@
 
 Chatbot for Multiple PDF files is a Python program designed for interacting with multiple PDF documents. Through natural language queries, users can inquire about the PDFs and receive accurate responses based on their content. The app utilizes a language model to generate these answers. It's important to note that the app will only respond to questions pertaining to the loaded PDFs.
 
-There are two options here to use LLM:
+There are two options here to use LLM. We can use either one:
 
 1. Use API of OpenAI's GPT-3.5 LLM model (Use python code "Multi_PDF_ChatBot_GPT3.5.py")
 OR
